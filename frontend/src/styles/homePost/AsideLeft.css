@@ -1,0 +1,16 @@
+.sidebar-left {
+
+    position: fixed;
+  right: 0;
+  top: 20%;
+  margin-top: -2.5em;
+    
+    display: flex;
+    flex-direction: column;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+
+.sidebar-left__link {
+   padding-bottom: 20%;   
+}

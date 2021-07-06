@@ -1,0 +1,38 @@
+.header {
+    min-height: 140px;
+    background-color: orange;
+    border-bottom: solid 2px black;
+	text-align: right;
+	padding: 32px;
+    display: flex;    
+    flex-direction: column;
+    align-content: center;
+	border-radius: 40px 40px 40px 40px;
+}
+
+.group-logo {
+    max-width: 350px;
+}
+
+.header_button {
+    margin-right: 6%;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+.header_button a:hover {
+    text-decoration: none;
+}
+
+.group-logo {	
+	max-height: 300px;
+	width: auto;	
+}
+
+.header__nav {
+	display: flex;
+	justify-content: flex-end;	
+}
+

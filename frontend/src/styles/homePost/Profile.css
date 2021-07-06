@@ -1,0 +1,25 @@
+
+h3 {
+    padding-top: 2%;
+}
+.profile__header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile {    
+    width: auto;
+}
+
+.profile__image {
+    width: 60%;
+    margin-bottom: 80px;    
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.profile__delete {
+    background-color: red;
+}

@@ -1,0 +1,25 @@
+.accueil {
+    display: flex;
+    flex-direction: column;
+}
+
+.accueil-content {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 2%;
+}
+
+.accueil-middle {    
+    width: 85%;
+    margin-right: -10%;
+}
+
+.accueil-aside-right {
+    margin-top: 10%;
+}
+
+.accueil-aside-right-login {
+    margin-bottom: 23%;
+}

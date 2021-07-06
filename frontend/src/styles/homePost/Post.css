@@ -1,0 +1,62 @@
+.card {
+    border: orange 3px solid;
+    border-radius: 10px;
+}
+
+.title__description {
+    padding-top: 2%;
+    margin-bottom: -2%;
+}
+
+.text-center {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;    
+}
+
+.post__header {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+
+.post__profile-image {
+    width: 70px;
+    margin-left: 15%;
+    margin-right: 11%;    
+}
+
+img {
+    width:100%;
+    height:100%;
+    display:block; 
+}
+
+.post__fullname {
+    color: black;
+    font-weight: bold;
+    margin-top: 10%;
+} 
+
+
+
+.post__description {
+    text-align: left;
+    margin-top: 2%;
+    padding-left: 2%;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.post__comments {
+    margin:  0 auto;;
+    width: 60%;
+}
+
+.post__delete {
+    background-color: red;
+    float:right;
+}
