@@ -14,6 +14,8 @@ Depuis le front-end (port 3006)
     - npm install
     - npm start
 ```
+ --- 
+ 
 
 Pour le back-end il faut que vous ayez Mysql.
 
@@ -24,15 +26,21 @@ Pour le back-end il faut que vous ayez Mysql.
 
 2. Cela vous créera un fichier "config.json" dans le dossier "config" dans lequel il y aura :
 ```
-{
-  "development": {
-    "username": "adminGroupomania",
-    "password": "Groupomania",
-    "database": "groupomania_db",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
-  }
-}
+    {
+    "development": {
+
+        "username": "adminGroupomania",
+
+        "password": "Groupomania",
+
+        "database": "groupomania_db",
+
+        "host": "127.0.0.1",
+
+        "dialect": "mysql"
+        
+    }
+    }
 
 Au besoin modifier l'username, password et database pour que cela corresponde à votre configuration.
 
