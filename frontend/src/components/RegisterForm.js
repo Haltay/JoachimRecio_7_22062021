@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-
-
 import '../styles/RegisterForm.css';
 
 class RegisterForm extends Component {

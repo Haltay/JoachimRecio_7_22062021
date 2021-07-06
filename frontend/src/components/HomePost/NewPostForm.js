@@ -3,7 +3,6 @@ import axios from 'axios';
 
 import { Card } from 'react-bootstrap';
 
-
 import '../../styles/homePost/newPostForm.css';
 
 class NewPostForm extends Component {

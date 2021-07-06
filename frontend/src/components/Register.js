@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-import '../styles/Register.css';
 import Header from "./Header";
 import RegisterForm from "./RegisterForm";
 import Footer from './Footer';
+
+import '../styles/Register.css';
 
 function Register() {
     return (

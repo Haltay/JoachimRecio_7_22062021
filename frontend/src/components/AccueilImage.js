@@ -1,9 +1,8 @@
 import React from 'react';
 
 import company from '../assets/company.jpg'
+
 import '../styles/Accueil_image.css';
-
-
 
 const Accueil_image = () => {
 

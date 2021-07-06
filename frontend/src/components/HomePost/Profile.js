@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
+import profilePic from '../../assets/icon.svg';
 import { Card, Button } from 'react-bootstrap';
 
-
 import '../../styles/homePost/Profile.css';
-import profilePic from '../../assets/icon.svg';
 
 class Profile extends Component {
 

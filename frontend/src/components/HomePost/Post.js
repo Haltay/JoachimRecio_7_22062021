@@ -3,13 +3,11 @@ import axios from 'axios';
 
 import Comment from './Comment';
 import NewCommentForm from './NewCommentForm';
-import '../../styles/homePost/Post.css';
-import profilePic from "../../assets/icon.png";
 
-import "bootstrap/dist/css/bootstrap.min.css";
+import profilePic from "../../assets/icon.png";
 import { Card, Button } from 'react-bootstrap';
 
-
+import '../../styles/homePost/Post.css';
 
 class Post extends Component {
 

@@ -1,15 +1,14 @@
 import React from 'react';
-// import { Link } from "react-router-dom";
-
-// import Button from '@material-ui/core/Button';
-
-import '../styles/Accueil.css';
 
 import Header from "./Header";
 import AccueilImage from "./AccueilImage";
 import Footer from './Footer';
 
+import '../styles/Accueil.css';
+
 function Accueil() {
+    document.cookie = 'token=;expires=Thu, 01 Jan 1970 00:00:01 GMT';
+
     return (
         <div className="accueil">
             <Header />

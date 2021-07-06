@@ -7,7 +7,6 @@ import groupomoniaLogo from '../assets/logo3.svg'
 function Header() {
     let { pathname } = useLocation();
 
-
     return (
         <div className="header">
 
