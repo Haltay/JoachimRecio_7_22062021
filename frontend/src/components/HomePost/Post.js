@@ -77,10 +77,10 @@ class Post extends Component {
         let { comments } = this.state;
 
 
-        return (            
+        return (
             <Card className="text-center">
                 <Card.Header>
-                
+
                     <Card.Title>
                         <h3 className="title__description">
                             {this.props.post.title}
@@ -99,16 +99,18 @@ class Post extends Component {
                 <Card.Body>
 
                     <Card.Text>
-                        <div className="content_description">
-                            {this.props.post.image ? <img src={this.props.post.image} alt="" className="post__image" /> : ''}
-                            <div className="post__description">
+                        <span className="content_description">
+                            <span>
+                                {this.props.post.image ? <img src={this.props.post.image} alt="" className="post__image" /> : ''}
+                            </span>
+                            <span className="post__description">
                                 {this.props.post.content}
-                            </div>
-                        </div>
+                            </span>
+                        </span>
 
                         {this.props.user.roles && this.props.user.roles.includes('ADMIN') ?
 
-                        <Button variant="primary" href="#" onClick={this.handlePostDelete} className="post__delete">Supprimer le post</Button> : ''
+                            <Button variant="primary" href="#" onClick={this.handlePostDelete} className="post__delete">Supprimer le post</Button> : ''
                         }
                     </Card.Text>
                 </Card.Body>

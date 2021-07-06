@@ -24,6 +24,8 @@
 
 .header_button a:hover {
     text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .group-logo {	

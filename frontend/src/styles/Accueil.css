@@ -4,16 +4,13 @@
 }
 
 .accueil-content {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 5%;
-    margin-right: 5%;
+    display: flex;    
+    justify-content: center;
     padding-top: 2%;
 }
 
 .accueil-middle {    
     width: 85%;
-    margin-right: -10%;
 }
 
 .accueil-aside-right {

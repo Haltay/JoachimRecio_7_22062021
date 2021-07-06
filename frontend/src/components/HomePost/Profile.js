@@ -54,9 +54,9 @@ class Profile extends Component {
 
                     <Card.Text>
 
-                        <p className="profile__description">
+                        <span className="profile__description">
                            Dans un futur proche il sera possible de rajouter votre biographie, soyez patient le futur arrive.
-                        </p>
+                        </span>
 
 
                     </Card.Text>

@@ -41,12 +41,14 @@ img {
     margin-top: 10%;
 } 
 
-
+.content_description {
+    display: flex;
+    flex-direction: column;
+}
 
 .post__description {
     text-align: left;
-    margin-top: 2%;
-    padding-left: 2%;
+    margin-top: 52px;
     font-size: larger;
     font-weight: 600;
 }
