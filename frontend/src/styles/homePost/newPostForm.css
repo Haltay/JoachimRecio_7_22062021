@@ -1,4 +1,23 @@
 
+.new-post {
+    display: flex;
+    flex-direction: column;
+}
+
+.newpost-form__input-group {
+    margin: 3% 0 3% 0;
+}
+
+.title__textarea {
+    width: 75%;
+    height: 25%;
+}
+
+.newpost-form__textarea {
+    width:  75%;
+    height: max-content;    
+}
+
 .newpost-form__submit {
     width: 150px;
     height: 37px;
@@ -8,6 +27,7 @@
     border-radius: 15px;
 }
 
-.newpost-form__input-group {
-    margin: 3% 0 3% 0;
+.newpost-form__input-group_post {
+    margin: 1% 0 3% 0;    
+
 }

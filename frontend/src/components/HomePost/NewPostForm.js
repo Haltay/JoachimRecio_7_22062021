@@ -10,7 +10,7 @@ class NewPostForm extends Component {
 
     state = {
         fields: {
-            title:'',
+            title: '',
             content: '',
         },
         errors: {}
@@ -79,7 +79,7 @@ class NewPostForm extends Component {
                     this.props.addPost(post);
                     window.location.href = "/home";
                 })
-                
+
                 .catch(err => {
                     console.log(err);
                     let errors = {};
@@ -98,56 +98,60 @@ class NewPostForm extends Component {
     render() {
         let { errors } = this.state;
 
-        return (        
+        return (
             <form action="" className="newpost-form" onSubmit={this.handleSubmit} ref={this.newPostForm}>
 
-            <Card className="text-center">
-                <Card.Header>                
-                    <Card.Title>
-                        <h3 className="newpost-form__title">Ajouter un post</h3>
-                    </Card.Title>                
-                </Card.Header>
+                <Card className="text-center">
+                    <Card.Header>
+                        <Card.Title>
+                            <h3 className="newpost-form__title">Ajouter un post</h3>
+                        </Card.Title>
+                    </Card.Header>
 
-                <Card.Body>
+                    <Card.Body>
 
-                    <Card.Text>
+                        <Card.Text>
 
-                    <div className="Title__input-group">
-                <label htmlFor="title" className="title__label">Ecrivez votre titre</label> 
-                <br></br>
-                <textarea name="title" id="title" className="title__textarea" value={this.state.fields['title']} onChange={this.handleChange} />
-                    {errors['title'] ? (
-                        <span className="title__error">{errors['title']}</span>
-                    ) : '' }
-                </div>   
+                        <span className="new-post">
 
-                <div className="newpost-form__input-group">
-                    <label htmlFor="image" className="newpost-form__image">Ajouter une image : </label>
-                    <input type="file" name="image" id="image" ref={this.imageInput} className="newpost-form__file-upload" />
-                    {errors['image'] ? (
-                        <span className="newpost-form__error">{errors['image']}</span>
-                    ) : '' }
-                </div>    
+                            <span className="Title__input-group">
+                                <label htmlFor="title" className="title__label">Ecrivez votre titre</label>
+                                <br></br>
+                                <textarea name="title" id="title" rows="1" className="title__textarea" value={this.state.fields['title']} onChange={this.handleChange} />
+                                {errors['title'] ? (
+                                    <span className="title__error">{errors['title']}</span>
+                                ) : ''}
+                            </span>
 
-                <div className="newpost-form__input-group">
-                    <label htmlFor="content" className="newpost-form__label">Ici c'est pour votre message <span className="required">*</span></label>                  
+                            <span className="newpost-form__input-group">
+                                <label htmlFor="image" className="newpost-form__image">Ajouter une image : &nbsp; </label>
+                                <input type="file" name="image" id="image" ref={this.imageInput} className="newpost-form__file-upload" />
+                                {errors['image'] ? (
+                                    <span className="newpost-form__error">{errors['image']}</span>
+                                ) : ''}
+                            </span>
 
-                    <textarea name="content" id="content" className="newpost-form__textarea" value={this.state.fields['content']} onChange={this.handleChange} />
-                    {errors['content'] ? (
-                        <span className="newpost-form__error">{errors['content']}</span>
-                    ) : '' }
-                </div>                        
-                               
-                    </Card.Text>
-                </Card.Body>
-                
-                <Card.Footer className="text-muted">
-                
-                    <input type="submit" value="Envoyer" className="newpost-form__submit"/>
-                    
-                </Card.Footer>
-                
-            </Card>
+                            <span className="newpost-form__input-group_post">
+                                <label htmlFor="content" className="newpost-form__label">Ici c'est pour votre message <span className="required">*</span></label>
+                                <br></br>
+                                <textarea name="content" id="content" rows="5" className="newpost-form__textarea" value={this.state.fields['content']} onChange={this.handleChange} />
+                                {errors['content'] ? (
+                                    <span className="newpost-form__error">{errors['content']}</span>
+                                ) : ''}
+                            </span>
+
+                            </span>
+
+                        </Card.Text>
+                    </Card.Body>
+
+                    <Card.Footer className="text-muted">
+
+                        <input type="submit" value="Envoyer" className="newpost-form__submit" />
+
+                    </Card.Footer>
+
+                </Card>
             </form>
         );
 
