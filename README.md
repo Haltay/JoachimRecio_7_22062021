@@ -22,8 +22,8 @@ Pour le back-end il faut que vous ayez Mysql.
 ```bash
 1. Depuis le back-end
     - npm install
-
-
+```
+```bash
 2. Cela vous créera un fichier "config.json" dans le dossier "config" dans lequel il y aura :
 ```
     {
@@ -38,7 +38,7 @@ Pour le back-end il faut que vous ayez Mysql.
         "host": "127.0.0.1",
 
         "dialect": "mysql"
-        
+
     }
     }
 
@@ -52,7 +52,9 @@ Au besoin modifier l'username, password et database pour que cela corresponde à
  TODO METTRE DONNEES DATABASE
 3.1 (optionnel) Si vous souhaitez ajouter des valeurs à votre base de données, vous pouvez ajouter :
     - npx sequelize-cli db:seed:all
+```
 
+```bash
 4. A présent il reste à écrire et valider
     - npm start
 ```

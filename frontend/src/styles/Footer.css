@@ -17,14 +17,13 @@ footer {
     margin-right: auto;
 }
 
-.about .about-list {  
+.about-list {  
     display: flex;
-    flex-direction: row;
+    
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2em;
-    margin-left: 12%;
+    justify-content: space-around;
+    
+    font-size: 1.2em;   
 }
 
 .about .about-list-font {
@@ -36,18 +35,8 @@ footer {
     margin-right: 5%;
 }
 
-.about .about-list-font .about-list_text {
-    padding-left: 3%;
-}
-
-.about .about-list-font .about-list_text .partner {
-    margin-left: -0.7%;
-}
 
 .about .about-list-nofont {
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
     color: #f2f2f2;
 }
 

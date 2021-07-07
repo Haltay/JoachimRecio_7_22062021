@@ -10,15 +10,11 @@ function Footer() {
 
                 <div className="about-list">
                     <div className="about-list-nofont">
-                        <div className="about-list_text">
-                            Mentions légales
-                        </div>
+                        Mentions légales
                     </div>
                     <div className="about-list-nofont">
                         <a href="mailto:admin@groupomania.com">
-                            <div className="about-list_text">
-                                Contact en cas de problème
-                            </div>
+                            Contact en cas de problème
                         </a>
                     </div>
                 </div>
