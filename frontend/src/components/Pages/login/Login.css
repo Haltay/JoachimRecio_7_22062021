@@ -1,0 +1,23 @@
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    padding-bottom: 5%;
+}
+
+.login {
+    padding-top: 5%;
+    width: 60%;
+}
+
+.login-form {
+    padding: 3% 7% 7% 7%;
+    border: 1px solid black;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 5%;
+}

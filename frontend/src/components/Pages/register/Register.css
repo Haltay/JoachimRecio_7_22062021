@@ -1,0 +1,27 @@
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.register {
+    padding-top: 5%;
+    width: 60%;
+}
+
+.register-form {
+    padding: 3% 7% 7% 7%;
+    border: 1px solid black;
+}
+
+h2 {
+    text-align: center;
+}
+
+.register-login-modal {
+    padding-top: 1%;
+    padding-left: 7%;
+}
