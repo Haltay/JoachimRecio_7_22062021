@@ -2,6 +2,12 @@
   background-color: #3f51b5;
 }
 
+.login-form__errors {
+  color: red;
+  font-weight: 700;
+}
+
 .login-form__error {  
   color: red;
+  font-weight: 700;
 }
