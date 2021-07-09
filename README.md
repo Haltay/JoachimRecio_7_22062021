@@ -52,7 +52,7 @@ Pour cela :
 ```bash
     utiliser votre logiciel habituel
     ou alors depuis l\'invité de commande de MySQL, en remplaçant par votre "user" et "password", la commande :
-            mysql -u user -p password groupomania < groupomania.sql 
+            mysql -u user -p password groupomania_db < groupomania.sql 
 ```
 Une fois les donnéds ajoutées, vous aurez accés aux comptes de toto@group.com (un utilisateur) et de ocr@group.com (un admin) avec le mot de passe GroupOcr01*
 
