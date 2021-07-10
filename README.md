@@ -47,7 +47,7 @@ Il vous faudra modifier l'username, le password pour que cela corresponde à vot
      npx sequelize-cli db:migrate
 ```
 
-3.1 (optionnel) Si vous souhaitez ajouter des valeurs à votre base de données, vous pouvez importer le fichier .sql groupomania (database/groupomania.sql).
+3.1 (optionnel) Si vous souhaitez ajouter des valeurs à votre base de données, vous pouvez importer le fichier .sql groupomania (en vous plaçant dans database/groupomania.sql).
 Pour cela :
 ```bash
     utiliser votre logiciel habituel

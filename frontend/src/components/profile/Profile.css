@@ -22,4 +22,5 @@ h3 {
 
 .profile__delete {
     background-color: red;
+    font-weight: bolder;
 }

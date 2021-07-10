@@ -94,7 +94,7 @@ class RegisterForm extends Component {
 
                 
                 <div className="form-group">
-                    <label>Nom d'utilisateur</label> 
+                    <label for="username">Nom d'utilisateur</label> 
                 <input type="text" name="username" id="username" className="form-control register-form__input" placeholder="Nom d'utilisateur" value={this.state.fields['username']} onChange={this.handleChange}/>
                 {errors['username'] ? (
                     <span className="login-form__error">{errors['username']}</span>
@@ -102,7 +102,7 @@ class RegisterForm extends Component {
                 </div>
 
                 <div className="form-group">
-                    <label>Email</label>
+                    <label for="email">Email</label>
                 <input type="email" name="email" id="email" className="form-control register-form__input" placeholder="Enter email" value={this.state.fields['email']} onChange={this.handleChange}/>
                 {errors['email'] ? (
                     <span className="login-form__error">{errors['email']}</span>
@@ -110,7 +110,7 @@ class RegisterForm extends Component {
                 </div>
 
                 <div className="form-group">
-                    <label>Mot de passe</label>                    
+                    <label for="password">Mot de passe</label>                    
                 <input type="password" name="password" id="password" className="form-control register-form__input" placeholder="Mot de passe secret" value={this.state.fields['password']} onChange={this.handleChange}/>
                 {errors['password'] ? (
                     <span className="login-form__error">{errors['password']}</span>

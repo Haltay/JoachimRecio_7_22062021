@@ -89,7 +89,7 @@ class LoginForm extends Component {
                 ) : '' }               
 
                 <div className="form-group login-form__label">
-                    <label>Email</label>
+                    <label for="email">Email</label>
                     <input type="email" name="email" id="email" className="form-control login-form__input" placeholder="Enter email" value={this.state.fields['email']} onChange={this.handleChange}/>
                  {errors['email'] ? (
                      <span className="login-form__error">{errors['email']}</span>
@@ -97,7 +97,7 @@ class LoginForm extends Component {
                 </div>
 
                 <div className="form-group login-form__label">
-                    <label>Password</label>                    
+                    <label for="password">Password</label>                    
                  <input type="password" name="password" id="password" className="form-control login-form__input" placeholder="Enter password" value={this.state.fields['password']} onChange={this.handleChange} />
                  {errors['password'] ? (
                      <span className="login-form__error">{errors['password']}</span>

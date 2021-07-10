@@ -22,6 +22,10 @@
     border-radius: 20px;
 }
 
+.header_button a {
+    color: blue;
+}
+
 .header_button a:hover {
     text-decoration: none;
     color: black;
