@@ -98,7 +98,7 @@ class Post extends Component {
 
                     <Card.Text>
                         <span className="content_description">
-                            <span>
+                            <span className="content-description_image">
                                 {this.props.post.image ? <img src={this.props.post.image} alt="" className="post__image" /> : ''}
                             </span>
                             <span className="post__description">
