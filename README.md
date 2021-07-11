@@ -11,9 +11,16 @@ Voici commencer installer le réseau social sur votre ordinateur depuis un termn
 
 Depuis le front-end (port 3006)
 ```bash
-     npm install
+     npm install     
+```
+Sous Windows vérifier dans "pacakge.json" que au niveau de "scripts" ce soit bien écrit "start": "set PORT=3006 && react-scripts start"
+
+Pour Linux et MAC, dans le même fichier modifier la ligne pour obtenir "start": "PORT=3006 react-scripts start"
+
+```bash
      npm start
 ```
+
  --- 
  
 
