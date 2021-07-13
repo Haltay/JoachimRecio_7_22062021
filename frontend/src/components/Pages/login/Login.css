@@ -13,8 +13,10 @@
 }
 
 .login-form {
+    color: #FD2D01;
     padding: 3% 7% 7% 7%;
-    border: 1px solid black;
+    border: 1px solid #1E314E;
+    border-radius: 25px;
 }
 
 h2 {

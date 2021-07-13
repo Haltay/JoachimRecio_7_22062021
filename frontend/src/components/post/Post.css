@@ -1,11 +1,16 @@
 .card {
-    border: orange 3px solid;
+    border: #1E314E 3px solid;
     border-radius: 10px;
+}
+
+.card-header {
+border-bottom: 1px solid #1E314E;
 }
 
 .title__description {
     padding-top: 2%;
     margin-bottom: -2%;
+    color: #FD2D01;
 }
 
 .text-center {
@@ -66,4 +71,8 @@ img {
 .post__delete {
     background-color: red;
     float:right;
+}
+
+.text-muted {
+    border-top: 1px solid #1E314E;
 }

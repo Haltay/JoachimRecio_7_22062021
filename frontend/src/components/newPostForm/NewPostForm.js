@@ -102,7 +102,7 @@ class NewPostForm extends Component {
 
                 <Card className="text-center">
                     <Card.Header>
-                        <Card.Title>
+                        <Card.Title className="card-title">
                             <h3 className="newpost-form__title">Ajouter un post</h3>
                         </Card.Title>
                     </Card.Header>

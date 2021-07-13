@@ -1,6 +1,6 @@
 footer {
-    background-color: #353535;
-    color: white;
+    background-color: #FFD7D7;
+    color: black;
     height: 150px;
     width: 100%;
     margin-top: 50px;
@@ -37,10 +37,11 @@ footer {
 
 
 .about .about-list-nofont {
-    color: #f2f2f2;
+    color: black;
+    font-weight: 600;
 }
 
 .about .about-list-nofont a {
     text-decoration: none;
-    color: #f2f2f2;
+    color: black;
 }

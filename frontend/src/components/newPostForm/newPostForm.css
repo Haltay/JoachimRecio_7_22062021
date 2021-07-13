@@ -4,6 +4,10 @@
     flex-direction: column;
 }
 
+.card-title {
+    color: #FD2D01;
+}
+
 .newpost-form__input-group {
     margin: 3% 0 3% 0;
 }
@@ -21,10 +25,10 @@
 .newpost-form__submit {
     width: 150px;
     height: 37px;
-    background-color: blue;
+    background-color: #122441;
     color: white;
     font-size: 1.1em;
-    border-radius: 15px;
+    border-radius: 25px;
 }
 
 .newpost-form__input-group_post {

@@ -20,7 +20,7 @@ function Register() {
 
                     <div className="register-login-modal">
                         <p>Oups j'ai déjà un compte <span role="img" aria-label="smiley">😊</span> 
-                         <Link to="/login">, je vais me connecter avec. </Link></p>
+                         <Link to="/login" className="register-to-login">, je vais me connecter avec. </Link></p>
                     </div>
                 </div>
             </div>

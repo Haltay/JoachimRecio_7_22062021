@@ -77,7 +77,7 @@ class Post extends Component {
 
         return (
             <Card className="text-center">
-                <Card.Header>
+                <Card.Header className="card-header">
 
                     <Card.Title>
                         <h3 className="title__description">

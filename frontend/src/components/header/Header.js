@@ -2,7 +2,7 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 
 import './Header.css';
-import groupomoniaLogo from '../../assets/logo3.svg'
+import groupomoniaLogo from '../../assets/logo4.svg'
 
 function Header() {
     let { pathname } = useLocation();

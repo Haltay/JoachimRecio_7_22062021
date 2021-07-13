@@ -1,7 +1,7 @@
 .header {
     min-height: 140px;
-    background-color: orange;
-    border-bottom: solid 2px black;
+    background: linear-gradient(#122441, #1E314E);
+    border-bottom: solid 2px #FE9D88;
 	text-align: right;
 	padding: 32px;
     display: flex;    
@@ -16,14 +16,13 @@
 
 .header_button {
     margin-right: 6%;
-    color: black;
     font-size: large;
     font-weight: bolder;
     border-radius: 20px;
 }
 
 .header_button a {
-    color: blue;
+    color: #E02D01;
 }
 
 .header_button a:hover {
