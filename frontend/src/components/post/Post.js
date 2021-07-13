@@ -122,7 +122,7 @@ class Post extends Component {
                         <NewCommentForm postId={this.props.post.id} user={this.props.user} addComment={this.addComment.bind(this)} />
 
                         {comments ? (comments.map(comment => {
-                            return <Comment key={comment.id} comment={comment} user={this.props.user} deleteComment={this.deleteComment.bind(this)} />
+                            return <Comment className="comment_delete" key={comment.id} comment={comment} user={this.props.user} deleteComment={this.deleteComment.bind(this)} />
                         })) : ''}
                     </div>
                 </Card.Footer>

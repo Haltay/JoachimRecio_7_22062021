@@ -70,7 +70,24 @@ img {
 
 .post__delete {
     background-color: red;
-    float:right;
+    float: right;
+    border-radius: 25px;
+    border: #122441;
+}
+
+.post__delete:hover {
+    background-color: #122441;
+}
+
+.comment__delete {
+    background-color: red;
+    float: right;
+    border-radius: 25px;
+    border: #122441;
+}
+
+.comment__delete:hover {
+    background-color: #122441;
 }
 
 .text-muted {

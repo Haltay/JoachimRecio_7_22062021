@@ -22,6 +22,12 @@ h3 {
 
 .profile__delete {
     background-color: red;
-    font-weight: bolder;
     border-radius: 25px;
+    border: #122441;
+    font-weight: bolder;
 }
+
+.profile__delete:hover {
+    background-color: #122441;
+}
+
