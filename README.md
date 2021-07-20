@@ -1,21 +1,27 @@
 
-# Groupomania - P7 - OpenClassrooms
+# Groupomania
 
-Le reséau social de Groupomania.
+Social website for Groupomania.
 
-Afin de doter la societé Groupomania d'un réseau social, le back-end (Node, MySql) et le front-end (React) ont été totalement créés.
+
+## Tasks
+
+    - Back-end with Node and MySQL
+    - Front-end (React)
+
 
 ## Installation
 
-Voici commencer installer le réseau social sur votre ordinateur depuis un termninal de commande après avoir cloner ce repository.
+Clone this repository
 
-Depuis le front-end (port 3006)
+From the front-end (port 3006), open a terminal and write:
 ```bash
-     npm install     
+     npm install 
 ```
-Sous Windows vérifier dans "pacakge.json" que au niveau de "scripts" ce soit bien écrit "start": "set PORT=3006 && react-scripts start"
 
-Pour Linux et MAC, dans le même fichier modifier la ligne pour obtenir "start": "PORT=3006 react-scripts start"
+For Windows verify in "pacakge.json" that is written in "scripts", "start": "set PORT=3006 && react-scripts start"
+
+For Linux and Mac in the same folder change the line by "start": "PORT=3006 react-scripts start"
 
 ```bash
      npm start
@@ -23,16 +29,14 @@ Pour Linux et MAC, dans le même fichier modifier la ligne pour obtenir "start":
 
  --- 
  
+From the back-end, you must have Mysql.
 
-Pour le back-end il faut que vous ayez Mysql.
-
-
-1. Depuis le back-end
+1. Open a terminal and write:
 ```bash
      npm install
 ```
 
-2. Cela vous créera un fichier "config.json" dans le dossier "config" dans lequel il y aura :
+2. You should have a file "config.json" in the folder "config", where it is written:
 ```bash
 
     {
@@ -46,28 +50,39 @@ Pour le back-end il faut que vous ayez Mysql.
     }
     }
 ```
-Il vous faudra modifier l'username, le password pour que cela corresponde à votre configuration, et si vous le souhaitez le nom de la database.
+Change the username and password with your configuration.
 
-3. A présent, pour créer la base de données et les tables il vous suffit de taper :
+3. Now create the database in the terminal with:
 ```bash
      npx sequelize-cli db:create
      npx sequelize-cli db:migrate
 ```
 
-3.1 (optionnel) Si vous souhaitez ajouter des valeurs à votre base de données, vous pouvez importer le fichier .sql groupomania (en vous plaçant dans database/groupomania.sql).
-Pour cela :
+3.1 (optionnal) If you want some data you can import in your databasse the file Si vous souhaitez ajouter des valeurs à votre base de données, vous pouvez importer le fichier groupomania.sql (in database/groupomania.sql):
 ```bash
-    utiliser votre logiciel habituel
-    ou alors depuis l\'invité de commande de MySQL, en remplaçant par votre "user" et "password", la commande :
+    use your habitual software 
+    or with the SQL terminal 
+    ou alors depuis l\'invité de commande de MySQL, replacing with your "user" and "password" write the commmand:
             mysql -u user -p password groupomania_db < groupomania.sql 
 ```
-Une fois les donnéds ajoutées, vous aurez accés aux comptes de toto@group.com (un utilisateur) et de ocr@group.com (un admin) avec le mot de passe GroupOcr01*
+With this data you have acces at the account of toto@group.com (an user) and ocr@group.com (an admin) with the password GroupOcr01*
 
 
-4. A présent il reste à écrire et valider :
+4. To finish write:
 ```bash
      npm start
 ```
 
 Enjoy
 
+
+## More projects
+[Reservia](https://github.com/Haltay/JoachimRecio_2_12112020) (HTML and CSS) : [github-pages](https://haltay.github.io/JoachimRecio_2_12112020/reservia.html)
+
+[Ohmyfood](https://github.com/Haltay/JoachimRecio_3_16122020) (SASS) : [github-pages](https://haltay.github.io/JoachimRecio_3_16122020/ohmyfood_accueil.html)
+
+[La Chouette Agence](https://github.com/Haltay/P4_01.02.21) (SEO, Accessibility) : [github-pages](https://haltay.github.io/P4_01.02.21/)
+
+[Orinoco](https://github.com/Haltay/JoachimRecio_5_11032021) an e-commerce website (front-end in Javascript) : [github-pages](https://haltay.github.io/JoachimRecio_5_11032021/)
+
+[Piquante](https://github.com/Haltay/JoachimRecio_6_19052021) (back-end with Node Express) : follow instructions in "ReadMe"
