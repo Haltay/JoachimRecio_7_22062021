@@ -19,7 +19,7 @@ From the front-end (port 3006), open a terminal and write:
      npm install 
 ```
 
-For Windows verify in "pacakge.json" that is written in "scripts", "start": "set PORT=3006 && react-scripts start"
+For Windows verify in "package.json" that is written in "scripts", "start": "set PORT=3006 && react-scripts start"
 
 For Linux and Mac in the same folder change the line by "start": "PORT=3006 react-scripts start"
 
